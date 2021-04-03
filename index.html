@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="file_upload">
+        <div id="file_upload_650" class="">
+            <h2>For 650 px</h2>
+            <input id="file1" type="file" onchange="filePreview1(event)">
+        </div>
+        <div id="file_upload_465" class = "hidden">
+            <h2>For 465 px</h2>
+            <input id="file2" type="file" onchange="filePreview2(event)">
+        </div>
+    </div>
+    
+    <picture>
+        <source id="source1" class="image_design" media="(min-width:650px)" srcset="">
+        <source id="source2" class="image_design" media="(min-width:465px)" srcset="">
+        <img src="./assets/bitmoji-1.png" class="image_design" alt="bitmoji" style="width: auto;"/>
+    </picture>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.hidden{
+    display: none;
+    transition: all ease-out 0.25sec;
+}
+.image_design{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.file_upload{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+picture{
+    margin-top: 50px;
+}
